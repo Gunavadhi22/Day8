@@ -1,0 +1,30 @@
+package Day8;
+
+public class Exer {
+	static
+		{
+			System.out.println("mountzion");
+		}
+		    int id=73;
+			String name="guna";
+			static String housename="homey";
+			
+			
+			void display (int a, String name)
+			{
+				System.out.println(a+ " " + name + "  " + housename);
+			}
+				 static void show(int a) {
+					 Exer.housename="mountzion";
+					  System.out.println(a+ " " + housename);
+				    }
+				      
+			public static void main(String[] args) {
+			 Exer obj=new Exer();
+		       System.out.println(obj.id);
+		       System.out.println(Exer.housename);
+		       obj.display(56,"guna");
+		      
+			}
+	}
+

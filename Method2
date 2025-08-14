@@ -1,0 +1,30 @@
+package Day8;
+	public class Method2 {
+		
+		Method2()
+		{
+			System.out.println("hi");
+		}
+		int age;
+		String name;
+		Method2(int a ,String str)
+		{
+			age=a;
+			name=str;
+		}
+		void display()
+		{
+			System.out.println(age +"  "+ name);
+		}
+		Method2(float b)
+		{
+			System.out.println(b);
+		}
+		public static void main(String[] args) {
+			Method2 obj=new Method2(5,"guna");
+			Method2 obj1=new Method2(5.5f);
+			obj.display();
+	
+		}
+	}
+

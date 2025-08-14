@@ -1,0 +1,22 @@
+package Day8;
+public class Main2 {	
+		int rollno=34;
+		String name="guna";
+		static String collegename="mount";
+		
+		void main (int a, String name)
+		{
+			System.out.println(a+ " " + name + "  " + collegename);
+		}
+	
+		public static void main(String[] args) {
+		 Main2 obj=new Main2();
+	       System.out.println(obj.rollno);
+	       System.out.println(Main2.collegename);
+	       
+	       obj.main(34,"guna");
+	       obj.main(54,"riya");
+	       obj.main(62,"kaviya");
+		}
+}
+

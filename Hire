@@ -1,0 +1,12 @@
+package Day8;
+
+public class Hire {
+
+	static
+	{
+		System.out.println("mountzion");
+	}
+	public static void main(String[] args) {
+		System.out.println("hi! nice to meet you... ");
+	}
+}

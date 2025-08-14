@@ -1,0 +1,45 @@
+package Day8;
+public class Trip {
+		String place;
+		String hotel;
+		String food;
+		String visitedplace;
+	public static void main(String[] args) {
+		Trip obj1=new Trip ();
+		obj1.place="himalayas";
+		obj1.hotel="king";
+		obj1.food="parotta";
+		obj1.visitedplace="temple";	
+		System.out.println(obj1.place);
+		System.out.println(obj1.hotel);
+		System.out.println(obj1.food);
+		System.out.println(obj1.visitedplace);
+		Trip obj2=new Trip();
+		obj2.place="rajasthan";
+		obj2.hotel="queen";
+		obj2.food="briyani";
+		obj2.visitedplace="dessert";	
+		System.out.println(obj2.place);
+		System.out.println(obj2.hotel);
+		System.out.println(obj2.food);
+		System.out.println(obj2.visitedplace);
+		Trip obj3=new Trip();
+		obj3.place="ooty";
+		obj3.hotel="khir";
+		obj3.food="chocolates";
+		obj3.visitedplace="hills";	
+		System.out.println(obj3.place);
+		System.out.println(obj3.hotel);
+		System.out.println(obj3.food);
+		System.out.println(obj3.visitedplace);
+		Trip obj4=new Trip();
+		obj4.place="ooty";
+		obj4.hotel="khir";
+		obj4.food="chocolates";
+		obj4.visitedplace="hills";	
+		System.out.println(obj4.place);
+		System.out.println(obj4.hotel);
+		System.out.println(obj4.food);
+		System.out.println(obj4.visitedplace);
+	}
+	}
